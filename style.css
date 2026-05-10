@@ -21,7 +21,7 @@ body, html { margin: 0; padding: 0; overflow: hidden; width: 100%; height: 100%;
 
 :root {
     --space-size: 700vw;       
-    --item-width: 270px;      
+    --item-width: 300px;      
     --neon-color: #ffffff; 
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .caption {
-    width: 240px;
+    width: 270px;
     background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(12px);
     color: #fff;
@@ -96,7 +96,7 @@ body {
 }
 
 .caption .title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--neon-color); 
     margin-bottom: 10px;
@@ -106,7 +106,7 @@ body {
 }
 
 .caption .text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     word-break: keep-all;
     text-align: center;
